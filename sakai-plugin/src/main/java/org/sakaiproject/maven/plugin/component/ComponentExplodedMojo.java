@@ -33,7 +33,7 @@ import org.apache.maven.plugin.MojoFailureException;
 public class ComponentExplodedMojo
     extends AbstractComponentMojo
 {
-    public void execute()
+    public void doExecute()
         throws MojoExecutionException, MojoFailureException
     {
         buildExplodedWebapp( getWebappDirectory() );

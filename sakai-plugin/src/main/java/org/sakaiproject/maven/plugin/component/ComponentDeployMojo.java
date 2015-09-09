@@ -125,7 +125,7 @@ public class ComponentDeployMojo extends AbstractComponentMojo {
 		this.cleanup = cleanup;
 	}
 
-	public void execute() throws MojoExecutionException, MojoFailureException {
+	public void doExecute() throws MojoExecutionException, MojoFailureException {
 		deployToContainer();
 	}
 
